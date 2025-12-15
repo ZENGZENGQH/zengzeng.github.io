@@ -1,6 +1,45 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+  // 核心必填配置 - 系统强制要求的必填项
+  "title": "ZENGZENGQH WANG TO SAY", // 博客标题（必填）
+  "subTitle": "自由万岁，祝我永远不死", // 博客描述&自述（必填）
+  "avatarUrl": "https://cn.cravatar.com/avatar/1A99C2378E9A41811A51139EA9C35314", // 博客头像（必填）
+  "GMEEK_VERSION": "last", // Gmeek版本（必填，last为最新版）
+
+  // 个性化展示配置 - 自定义页面显示效果
+  "displayTitle": "蹭蹭", // 头像后展示的标题（默认同title）
+  "homeUrl": "https://zengzengqh.github.io/zengzeng.github.io", // 博客主页地址（自定义域名时配置）
+  "faviconUrl": "https://cn.cravatar.com/avatar/1A99C2378E9A41811A51139EA9C35314", // 页面favicon地址（默认同avatarUrl）
+  //"email": "meekdai@163.com", // 自动提交仓库用邮箱（可选）
+  "startSite": "12/15/2025", // 网站运行天数起始日期（底部显示）
+  //"filingNum": "浙ICP备20023628号", // 备案号（底部显示）
+  "onePageListNum": 15, // 首页每页展示文章数量
+  "singlePage": [ "about" ], // 自定义独立页面（如about/link）
+  "iconList": { "music": "M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Z" }, // 自定义页面按钮SVG图标（16px）
+  //"exlink": { "music": "https://music.meekdai.com" }, // 首页右上角外部链接按钮
+  "commentLabelColor": "#006b75", // 评论数量标签颜色
+  "yearColorList": [ "#bc4c00", "#0969da", "#1f883d", "#A333D0" ], // 不同年份标签颜色
+
+  // 多语言/时区/主题配置
+  "i18n": "CN", // 博客语言（EN/CN/RU）
+  "UTC": 8, // 时区（东8区）
+  "themeMode": "manual", // 主题模式（manual手动/fix固定）
+  "dayTheme": "light", // 亮主题样式
+  "nightTheme": "dark_colorblind", // 暗主题样式
+
+  // 链接/样式/功能配置
+  "urlMode": "pinyin", // 文章链接生成模式（pinyin/issue/ru_translit）
+  "style": "", // 文章页自定义CSS
+  "script": "", // 文章页自定义JavaScript
+  "head": "", // 文章页自定义head内容
+  "allHead": "<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>", // 所有页面自定义head内容
+  "indexStyle": "", // 首页自定义CSS
+  "indexScript": "", // 首页自定义JavaScript
+  "showPostSource": 1, // 是否显示issue链接按钮（1显示/0隐藏）
+  "rssSplit": "sentence", // RSS输出截断符号（默认第一句话）
+  "bottomText": "转载请注明出处", // 文章页右下角提示文字
+  "ogImage": "https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg", // Open Graph协议展示图片
+  "primerCSS": "<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />", // primer.css的CDN地址
+  "needComment": 0 // 是否开启评论功能（1开启/0关闭）
+
+
 }
