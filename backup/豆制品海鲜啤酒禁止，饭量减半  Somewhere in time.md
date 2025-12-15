@@ -1,0 +1,1 @@
+豆制品海鲜啤酒禁止，饭量减半  Somewhere in time
